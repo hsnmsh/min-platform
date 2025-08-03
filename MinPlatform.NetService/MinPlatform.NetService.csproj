@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Caching\MinPlatform.Caching.InMemory\MinPlatform.Caching.InMemory.csproj" />
+    <ProjectReference Include="..\Caching\MinPlatform.Caching.Service\MinPlatform.Caching.Service.csproj" />
+    <ProjectReference Include="..\ConfigStore\MinPlatform.ConfigStore.Service\MinPlatform.ConfigStore.Service.csproj" />
+    <ProjectReference Include="..\Data\MinPlatform.Data.Service\MinPlatform.Data.Service.csproj" />
+    <ProjectReference Include="..\Data\MinPlatform.Data.Sql\MinPlatform.Data.Sql.csproj" />
+    <ProjectReference Include="..\DI\MinPlatform.DI.Service\MinPlatform.DI.Service.csproj" />
+    <ProjectReference Include="..\Logging\MinPlatform.Logging.Service\MinPlatform.Logging.Service.csproj" />
+    <ProjectReference Include="..\Notifications\MinPlatform.Notifications.Service\MinPlatform.Notifications.Service.csproj" />
+    <ProjectReference Include="..\Tenant\MinPlatform.Tenant.Service\MinPlatform.Tenant.Service.csproj" />
+    <ProjectReference Include="..\Validators\MinPlatform.Validators.Service\MinPlatform.Validators.Service.csproj" />
+  </ItemGroup>
+
+</Project>

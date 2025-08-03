@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="BatchParser" />
+  </ItemGroup>
+
+  <!-- This file is meant to be linked from FluentMigrator.DotNet.Cli and FluentMigrator.MSBuild -->
+  <ItemGroup>
+    <Compile Remove="DirtyAssemblyResolveHelper.cs" />
+    <None Include="DirtyAssemblyResolveHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DI\MinPlatform.DI.Service\MinPlatform.DI.Service.csproj" />
+    <ProjectReference Include="..\..\..\Logging\MinPlatform.Logging.Service\MinPlatform.Logging.Service.csproj" />
+    <ProjectReference Include="..\..\MinPlatform.Schema.Builder\MinPlatform.Schema.Builder.csproj" />
+    <ProjectReference Include="..\MinPlatform.Schema.Migrators\MinPlatform.Schema.Migrators.csproj" />
+  </ItemGroup>
+</Project>

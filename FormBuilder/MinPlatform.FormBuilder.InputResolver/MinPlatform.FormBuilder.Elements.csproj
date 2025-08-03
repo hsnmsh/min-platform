@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EngineRule\MinPlatform.EngineRule.Service\MinPlatform.EngineRule.Service.csproj" />
+    <ProjectReference Include="..\MinPlatform.FormBuilder.DataProviders\MinPlatform.FormBuilder.DataProviders.csproj" />
+  </ItemGroup>
+
+</Project>

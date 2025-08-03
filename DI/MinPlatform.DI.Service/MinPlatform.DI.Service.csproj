@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UserSecretsId>b1f2908a-2b5e-4fdd-b24f-9615cabaf258</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MinPlatform.DI.Autofac\MinPlatform.DI.Autofac.csproj" />
+    <ProjectReference Include="..\MinPlatform.DI.ServiceCollection\MinPlatform.DI.ServiceCollection.csproj" />
+  </ItemGroup>
+
+</Project>

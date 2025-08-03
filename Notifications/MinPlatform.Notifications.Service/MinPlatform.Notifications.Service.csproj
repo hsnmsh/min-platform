@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\MinPlatform.Data.Service\MinPlatform.Data.Service.csproj" />
+    <ProjectReference Include="..\..\DI\MinPlatform.DI.Service\MinPlatform.DI.Service.csproj" />
+    <ProjectReference Include="..\MinPlatform.Notifications.Abstractions\MinPlatform.Notifications.Abstractions.csproj" />
+    <ProjectReference Include="..\MinPlatform.Notifications.Email.Sendgrid\MinPlatform.Notifications.Email.Sendgrid.csproj" />
+    <ProjectReference Include="..\MinPlatform.Notifications.Email\MinPlatform.Notifications.Email.Smtp.csproj" />
+  </ItemGroup>
+
+</Project>

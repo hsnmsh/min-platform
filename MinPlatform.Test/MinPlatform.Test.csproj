@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Caching\MinPlatform.Caching.InMemory\MinPlatform.Caching.InMemory.csproj" />
+    <ProjectReference Include="..\Caching\MinPlatform.Caching.Service\MinPlatform.Caching.Service.csproj" />
+    <ProjectReference Include="..\ConfigStore\MinPlatform.ConfigStore.Service\MinPlatform.ConfigStore.Service.csproj" />
+    <ProjectReference Include="..\Data\MinPlatform.Data.Sql\MinPlatform.Data.Sql.csproj" />
+    <ProjectReference Include="..\DI\MinPlatform.DI.Service\MinPlatform.DI.Service.csproj" />
+    <ProjectReference Include="..\EngineRule\MinPlatform.EngineRule.EvaluationEngine\MinPlatform.EngineRule.EvaluationEngine.csproj" />
+    <ProjectReference Include="..\EngineRule\MinPlatform.EngineRule.Service\MinPlatform.EngineRule.Service.csproj" />
+    <ProjectReference Include="..\FormBuilder\MinPlatform.FormBuilder.Engine\MinPlatform.FormBuilder.Engine.csproj" />
+    <ProjectReference Include="..\Logging\MinPlatform.Logging.Service\MinPlatform.Logging.Service.csproj" />
+    <ProjectReference Include="..\Notifications\MinPlatform.Notifications.Service\MinPlatform.Notifications.Service.csproj" />
+    <ProjectReference Include="..\Schema\Migrators\DataBases\SqlServer\MinPlatform.Schema.Migrators.DataBases.SqlServer\MinPlatform.Schema.Migrators.DataBases.SqlServer.csproj" />
+    <ProjectReference Include="..\Schema\Migrators\MinPlatform.Schema.Migrators.Runner.Core\MinPlatform.Schema.Migrators.Runner.Core.csproj" />
+    <ProjectReference Include="..\Schema\MinPlatform.Schema.Builder\MinPlatform.Schema.Builder.csproj" />
+    <ProjectReference Include="..\Tenant\MinPlatform.Tenant.Service\MinPlatform.Tenant.Service.csproj" />
+    <ProjectReference Include="..\Validators\MinPlatform.Validators.Service\MinPlatform.Validators.Service.csproj" />
+  </ItemGroup>
+
+</Project>

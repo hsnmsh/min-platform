@@ -1,0 +1,70 @@
+## Ignore build output directories
+bin/
+obj/
+
+## Ignore the .vs folder (Visual Studio workspace and settings)
+.vs/
+
+## User-specific files
+.vscode/
+.idea/
+
+## ASP.NET Core-specific
+wwwroot/
+appsettings*.json
+appsettings*.Development.json
+secrets/
+
+## ASP.NET Core's SignalR
+_hubs/
+
+## Ignore local tool folders
+.tool/
+
+## Ignore NuGet packages and package cache
+*.nupkg
+.nuget/
+packages/
+
+## User-specific IDE settings
+.idea/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vsconfig
+
+## Ignore compiled files for assembly
+*.dll
+*.exe
+*.pdb
+*.obj
+
+## Ignore Assembly source code (if needed)
+*.asm
+*.asm*.bak
+*.obj
+
+## Ignore temporary files
+*.tmp
+*.swp
+*~.ncb
+*.sdf
+*.log
+
+## Ignore test output
+TestResults/
+
+## Ignore dotCover (JetBrains) code coverage files
+.idea/dotCover/
+
+## Ignore JetBrains Rider specific files
+.idea/.idea/
+
+## Ignore the package lock files
+package-lock.json
+
+## Ignore ASP.NET Core's Docker-related files
+Dockerfile
+.dockerignore
